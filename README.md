@@ -13,7 +13,7 @@ Emoji |	Pattern Represented |	Technical Significance
 ### GIMP Plugin Master Catalog
 Plugin Name | Primary Link | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legend |
 |---|---|---|---|---|---|---|---|---|
-G’MIC (GIMIC) | https://gmic.eu/download.html | Creative Effects & Filters | Image Repair & Enhancement | Framework | Yes | Yes | Yes | ⚙️ ⭐ |
+[G’MIC (GIMIC)](https://gmic.eu/download.html) | Creative Effects & Filters | Image Repair & Enhancement | Framework | Yes | Yes | Yes | ⚙️ ⭐ |
 Resynthesizer | https://github.com/bootchk/resynthesizer/tree/resynthesizer3 | Image Repair & Enhancement | Compositing & Transformation | Selection Tools | Yes | Yes | Yes | 🐍 🏗️ ⭐ |
 BIMP (Batch) | https://github.com/alessandrofrancesconi/gimp-plugin-bimp | Workflow Automation & Batch | Image Repair & Enhancement | N/A | Yes | N/A |? | 🐍 |
 Liquid Rescale (LQR) | https://github.com/carlobaldassi/gimp-lqr-plugin | Compositing & Transformation | Image Repair & Enhancement | Selection Tools | Yes | N/A | N/A | 💾 |
