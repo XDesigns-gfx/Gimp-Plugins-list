@@ -2,8 +2,7 @@
 
 >A list of Majority of gimp plugins, hopefully to be improved upon by the community. Feel free to open issues or pull requests, or Whatever you'll like. Honestly I just want a one stop shop to Finidning the Plugins, Scripts, Macros and more for gimp and affinity when I need them insted of digging through reddit
 
-## IMPORTANT: SOME PLUGINS/SCRIPT/ETC MIGHT BE ANNOYING TO HANDLE FOR THOSE THERE WILL BE A "INFO:" LINK TO HELP
-<font color="green">This text is green.</font>
+#### IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annyoing to install/understand for those you'll see a "INFO:" Link to help
 
 Emoji |	Pattern Represented |	Technical Significance
 |---|---|---|
@@ -27,7 +26,7 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 [Constantize Plug-in](https://gimpchat.com/viewtopic.php?f=9&t=16827&p=254816) | Helper Plugin | Allows older gimp plugins to work for 2.10 | Helper| Yes | Yes | N/A | ⚙️ |
 
 
-## IMPORTANT: SOME PLUGINS/SCRIPT/ETC MIGHT BE ANNOYING TO HANDLE FOR THOSE THERE WILL BE A "INFO:" LINK TO HELP
+#### IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annyoing to install/understand for those you'll see a "INFO:" Link to help
 
 
 ## 📷 Photo & RAW Tools
@@ -62,4 +61,4 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 
 
 
-## IMPORTANT: SOME PLUGINS/SCRIPT/ETC MIGHT BE ANNOYING TO HANDLE FOR THOSE THERE WILL BE A "INFO:" LINK TO HELP
+#### IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annyoing to install/understand for those you'll see a "INFO:" Link to help
