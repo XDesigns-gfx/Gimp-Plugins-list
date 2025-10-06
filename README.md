@@ -20,5 +20,5 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 [Pandora](https://shallowsky.com/software/pandora/) | Compositing & Transformation | Workflow Automation & Batch | N/A | Yes | N/A | Yes | 🐍 🏗️ |
 [Hugin](https://www.hugin.com/download-links/) | Compositing & Transformation | Workflow Automation & Batch | Framework | Yes | N/A | N/A | ⚙️ |
 [Layer Effects (GEGL)](https://github.com/LinuxBeaver/Gimp_Layer_Effects_Text_Styler_Plugin_GEGL_Effects/releases/) | Layer Effects & Styling | Creative Effects & Filters | Non-Destructive | Yes | Yes | Yes | 🏗️ |
-[Lensfun]([https://lensfun.github.io/](https://lensfun.github.io/usage/)) | Technical Correction | Image Repair & Enhancement | Framework | Yes | N/A | N/A | ⚙️ |
+[Lensfun](https://lensfun.github.io/usage/) | Technical Correction | Image Repair & Enhancement | Framework | Yes | N/A | N/A | ⚙️ |
 
