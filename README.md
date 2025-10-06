@@ -14,7 +14,7 @@ Emoji |	Pattern Represented |	Technical Significance
 ⚙️	| Standalone Application/Framework | Represents large, external tools (such as G'MIC or Hugin) that utilize GIMP merely as an input/output interface, often yielding better resilience against internal API changes.
 💾	| Legacy/Archive Status	| Denotes a plugin optimized for GIMP 2.10 or older versions, where maintenance for GIMP 3.0+ is either confirmed absent or highly uncertain.
 ⭐	| High Utility / Essential Tool |	Identifies a tool widely regarded by the community as essential for extending GIMP’s core capabilities beyond standard functionality.
-🚩	| Verified Working |	Tested and confirmed functional on the specified GIMP version(s).
+🚩	| Independent / Use-at-Own-Risk |	Developed by smaller/independent devs; not officially verified. (⚠️ See disclaimer)
 🧠	| AI / Machine Learning Based | Plugin leveraging machine learning or neural network technology.
 📦	| Script Collection	| Bundled or multi-utility plugin collection (Script-Fu, Python-Fu, etc.).
 
@@ -54,96 +54,67 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 | [**GIMP-ML**](https://kritiksoman.github.io/GIMP-ML-Docs/index.html)                    | Python-based ML toolkit with models for style transfer, super-resolution, and background removal.          | –    | ✅     | ✅   | 🧠 🐍 🏗️ ⭐  | [Docs](https://kritiksoman.github.io/GIMP-ML-Docs/index.html)                                                                                  |
 | [**GIMP Comfy Tools**](https://github.com/nchenevey1/gimp-comfy-tools)                  | Connects GIMP with ComfyUI for AI image generation and post-processing.                                    | –    | –     | ✅   | 🧠 ⚙️ 🏗️ 🚩 | [INFO](https://www.gimp-forum.net/Thread-AI-Gimp-Plugins) / [INFO2](https://www.reddit.com/r/GIMP/comments/1jp0mzt/gimp_3_ai_plugins_updated/) |
 | [**RemoveBG-GIMP**](https://github.com/manu12121999/RemoveBG-GIMP)                      | Simple AI background remover using the [remove.bg](https://www.remove.bg/) API.                            | ✅    | ✅     | ✅   | 🧠 ⚙️ 🚩     | –                                                                                                                                              |
-| [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin)              | Integrates [rembg](https://github.com/danielgatis/rembg) AI background removal with mask and crop options. | ✅    | ✅     | –   | 🧠 🐍 💾     | –                                                                                                                                              |
+| [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin)              | Integrates [rembg](https://github.com/danielgatis/rembg) AI background removal with mask and crop options. | ✅    | ✅     | –   | 🧠 🐍 💾 🚩     | –                                                                                                                                              |
 | [**gimp3-rembg-plugin (UI Variant)**](https://github.com/ismdevteam/gimp3-rembg-plugin) | GIMP 3.x UI variant of rembg plugin with live mask preview and batch support.                              | –    | –     | ✅   | 🧠 🐍 🏗️ 🚩 | –                                                                                                                                              |
 | [**GIMP Upscale (RealESRGAN)**](https://github.com/Nenotriple/gimp_upscale)             | AI upscaler using RealESRGAN; enhances resolution and image quality.                                       | ✅    | ✅     | ✅   | 🧠 🐍 🚩 ⭐   | –                                                                                                                                              |
 | [**Segment Anything (Meta SAM)**](https://github.com/Shriinivas/gimpsegany)             | Integrates Meta’s Segment Anything for advanced object isolation and smart masking.                        | –    | –     | ✅   | 🧠 ⚙️ 🏗️ 🚩 | [INFO](https://github.com/facebookresearch/sam2?tab=readme-ov-file)                                                                            |
 | [**Tritonhawk-Plus**](https://github.com/TigersEyeJadeSwiftwing/Tritonhawk-Plus)        | Plugin designed for high-precision scientific or mathematical image analysis.                              | –    | –     | ✅   | ⚙️ 🏗️ 🚩    | –                                                                                                                                              |
 
-
-- [**OpenVino**](https://github.com/intel/openvino-ai-plugins-gimp)(for GIMP 3.x) - A powerful open-source too that provides a set of OpenVINO™ based plugins that add AI features to GIMP.
-    
-- [**Gimp-ML**](https://kritiksoman.github.io/GIMP-ML-Docs/index.html) (for GIMP 2.99+) - GIMP-ML is a set of Python plugins for the widely popular GNU Image Manipulation Program (GIMP). cpu adapt bgremoval, etc
-    
-- [**gimp-comfy-tools**](https://github.com/nchenevey1/gimp-comfy-tools) (for GIMP 3.X) - GIMP plugins that communicate with ComfyUI
-  [INFO:](https://www.gimp-forum.net/Thread-AI-Gimp-Plugins) [INFO2:](https://www.reddit.com/r/GIMP/comments/1jp0mzt/gimp_3_ai_plugins_updated/)
-
-- [Remove BG Main](https://github.com/manu12121999/RemoveBG-GIMP) 🚩 (for GIMP 2.x - 3.x) - A small plugin to easily remove the background of an image using https://www.remove.bg/
-    
-- [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin) (for GIMP 2.x) - This GIMP plugin allows users to remove image backgrounds using AI-powered tools like [rembg](https://github.com/danielgatis/rembg). The plugin integrates with GIMP to offer a simple way to remove backgrounds, optionally apply the result as a mask, flatten the image, and resize the canvas to make the image square. It can process a single image or all open images in GIMP.
-
-- [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin) 🚩
-  [BG Removal UI varient](https://github.com/ismdevteam/gimp3-rembg-plugin) 🚩 (for GIMP 3.x) - This GIMP plugin allows users to remove image backgrounds using AI-powered tools like [rembg](https://github.com/danielgatis/rembg). The plugin integrates with GIMP to offer a simple way to remove backgrounds, optionally apply the result as a mask, flatten the image, and resize the canvas to make the image square. It can process a single image or all open images in GIMPHelp.org
-
-- [**Gimp_Upscale**](https://github.com/Nenotriple/gimp_upscale) 🚩 (for GIMP 2.x-3.x) - **GIMP Upscale** is an open-source plugin that brings advanced AI-powered image upscaling to GIMP. Using RealESRGAN technology, this plugin lets you enhance image resolution, improve photo quality, and upscale anime artwork with ease, supporting custom ESRGAN models and both Windows and Linux platforms.
-
-- [**Tritonhawk-Plus**](https://github.com/TigersEyeJadeSwiftwing/Tritonhawk-Plus) 🚩 (For GIMP 3.x) - Tritonhawk-Plus might be the answer for scientific needs where extreme precision is needed, or at least a start. so MATH!!!
-
-- [**Segment ANything**](https://github.com/Shriinivas/gimpsegany) 🚩 (FOr GIMP 3.x) - This GIMP plugin integrates with Meta's AI-based tool Segment Anything, which enables you to effortlessly isolate objects within raster images directly from GIMP. [INFO:](https://github.com/facebookresearch/sam2?tab=readme-ov-file) for meta
-
 ---
 
 ## 📷 Photo & RAW Tools
 
-- [**Darktable**](https://www.darktable.org/) (for GIMP 2.x) - A powerful open-source RAW developer that works as a GIMP plugin, offering non-destructive photo editing. It’s often described as a free alternative to Lightroom with an accessible interface.
+| Plugin                                          | Description                                                                        | 2.10 | 2.99+ | 3.x | Legend  | Info / Docs                                       |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------- | ---- | ----- | --- | ------- | ------------------------------------------------- |
+| [**Darktable**](https://www.darktable.org/)     | Open-source RAW photo developer; integrates seamlessly with GIMP.                  | ✅    | ✅     | ✅   | ⚙️ ⭐    | [Docs](https://docs.darktable.org/usermanual/en/) |
+| [**RawTherapee**](https://rawtherapee.com/)     | Advanced RAW processor with HDR, tone mapping, and film emulation tools.           | ✅    | ✅     | ✅   | ⚙️ ⭐    | [Docs](https://rawpedia.rawtherapee.com/)         |
+| [**UFRaw**](https://ufraw.sourceforge.net/Install.html)      | Legacy RAW importer offering precise exposure and color control.      | ✅    | –     | –   | ⚙️ 💾   | [Docs](http://ufraw.sourceforge.net/Install.html)     |
+| [**Lensfun**](https://lensfun.github.io/usage/) | Lens correction plugin for distortion, vignetting, and chromatic aberration fixes. | ✅    | –     | –   | ⚙️ 💾 ⭐ | [INFO](https://lensfun.github.io/usage/)             |
 
-- [**RawTherapee**]([RawTherapee](https://rawtherapee.com/) -Raw developer
-    
-- [**RawTherapee**](https://rawtherapee.com/) (for GIMP 2.x) - Another advanced RAW processor plugin, RawTherapee provides extensive tone mapping and HDR tools. Though less user-friendly than Darktable, it allows non-destructive raw editing directly inside GIMP.
-    
-- [**UFRaw**](https://rawtherapee.com/) (for GIMP 2.x) - A dedicated RAW import plugin, UFRaw integrates tightly with GIMP to give photographers detailed raw controls. It provides precise color management and preserves original raw files during editing.
-    
-- [**Lensfun**]([Lensfun](https://lensfun.github.io/usage/)) (for GIMP 2.x) - A lens correction plugin using the Lensfun database. It can fix lens distortion, chromatic aberration and vignetting by applying accurate lens profiles (Supports a wide range of cameras/lenses from the Lensfun database.)
-    
+
 ---
 
 ## 🎨 Filters & Effects
 
-- [**G’MIC (GREYC’s Magic)**]() (for GIMP 2.x) - A comprehensive image processing framework with _500+ filters_. G’MIC adds a huge variety of effects (film emulations, warping, color manipulation, etc.) far beyond simple Instagram-style filters.
-    
-- [**Beautify**](https://github.com/hejiann/beautify/wiki) (for GIMP 2.x) - A collection of “beautifying” filters with simple sliders, designed for quick face/photo retouching. It provides dozens of easy-to-use skin and detail enhancement effects.
-    
-- [**Resynthesizer**](https://github.com/bootchk/resynthesizer/tree/resynthesizer3) (for GIMP 2.x) - Texture-synthesis plugins (like content-aware fill). Resynthesizer can automatically fill in selections by replicating surrounding textures, akin to Photoshop’s Content-Aware Fill[shotkit.com](https://shotkit.com/gimp-plugins/#:~:text=If%20you%E2%80%99ve%20ever%20been%20jealous,selection%20from%20what%20surrounds%20it).
-    
-- [**Elsamuko’s Filter Pack**](https://github.com/elsamuko/gimp-elsamuko) (for GIMP 2.x) - A set of creative “Instagram-style” presets and effects. It offers various artistic filters (vintage looks, color adjustments, sharpening) and quick one-click enhancements [INFO:](https://gimpchat.com/viewtopic.php?f=8&t=17919)
-    
-- [**FX-Foundry**](https://sourceforge.net/projects/gimpfx-foundry/) (For GIMP 2.x) - A large collection of filters and effects (added via a new menu in GIMP). FX-Foundry provides numerous artistic and enhancement filters, along with Script-Fu automation tools for batch tasks. [INFO:](https://gimpchat.com/viewtopic.php?f=9&t=17205&start=0) (_Listed under both Filters and Automation_.) 🚩 ⚠️: Use GEGL INSTEAD
-  
-- [**GEGL**](https://github.com/linuxbeaver) (For GIMP 2.x - 3.x) - Preinstalled but supports plugins for text effects etc
-
+| Plugin                                                                            | Description                                                                         | 2.10 | 2.99+ | 3.x | Legend      | Info / Docs                                                                                                                            |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---- | ----- | --- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [**G’MIC (GREYC’s Magic)**](https://gmic.eu/download.html)                        | Framework with 500+ filters for enhancement, color effects, and artistic rendering. | ✅    | ✅     | ✅   | ⚙️ ⭐        | [Docs](https://gmic.eu/)                                                                                                               |
+| [**Beautify**](https://github.com/hejiann/beautify/wiki)                          | Photo retouching plugin offering beautification and portrait enhancement filters.   | ✅    | –     | –   | ⚙️ 💾       | [Docs](https://github.com/hejiann/beautify/wiki)                                                                                       |
+| [**Resynthesizer**](https://github.com/bootchk/resynthesizer/tree/resynthesizer3) | Texture synthesis tool enabling “Content-Aware Fill”-like functionality.            | ✅    | ✅     | ✅   | ⚙️ 🐍 ⭐     | [INFO](https://shotkit.com/gimp-plugins/#:~:text=If%20you%E2%80%99ve%20ever%20been%20jealous,selection%20from%20what%20surrounds%20it) |
+| [**Elsamuko’s Filter Pack**](https://github.com/elsamuko/gimp-elsamuko)           | Creative preset pack with color adjustments, film looks, and vintage filters.       | ✅    | –     | –   | ⚙️ 💾 🚩    | [INFO](https://gimpchat.com/viewtopic.php?f=8&t=17919)                                                                                 |
+| [**FX-Foundry**](https://sourceforge.net/projects/gimpfx-foundry/)                | Massive filter and automation pack;  (NOT RECOMMENDED USE GEGL INSTEAD)             | ✅    | –     | –   | ⚙️ 📦 💾 🚩 | [INFO](https://gimpchat.com/viewtopic.php?f=9&t=17205&start=0)                                                                         |
+| [**GEGL Effects**](https://github.com/linuxbeaver)                                | Built-in framework supporting modern text, lighting, and non-destructive effects.   | ✅    | ✅     | ✅   | ⚙️ 🏗️ ⭐    | –                                                                                                                                            |
 ---
 
 ## 🔧 Utilities / Tools
 
-- [**Palette Generator**](https://www.marcocrippa.it/page/gimp_palette.php) 🚩 (For GIMP 2.6) - Generates color palettes from images. Useful for designers, it quickly extracts harmonious color schemes from your artwork.
-    
-- [**Duplicate to Another Image**](https://www.deviantart.com/slybug/art/Duplicate-to-another-Image-341012566) (For GIMP 2.8) - A layer management utility. It lets you easily copy layers (with masks/groups) from one open image to another, streamlining compositing workflows.
-    
-- [**Liquid Rescale**](http://liquidrescale.wikidot.com/) (For GIMP 2.8) - Content-aware image resizing. It emulates Photoshop’s “Content-Aware Scale” to resize images intelligently (preserving subjects while compressing backgrounds).
-- [**bsz-gimp-plugins**](https://github.com/Beinsezii/bsz-gimp-plugins) (For GIMP 2.99) - N/A 
-
-    
-- [**Watermark**](https://gimpchat.com/viewtopic.php?f=9&t=21349) 🚩 (For GIMP 2.x - 3.x) - A batch watermarking tool. It lets you add text or image watermarks with adjustable opacity/size/position. You can process multiple images at once, making watermarking efficient.
-
-- [**CYAN**](https://cyan.graphics/) (For GIMP 2.x) - Addresses Gimp CMYK Limitations [INFO:](https://www.gimp-forum.net/Thread-cyan-for-prepress-work)
+| Plugin                                                                                                       | Description                                                                               | 2.10 | 2.99+ | 3.x | Legend   | Info / Docs                                                      |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ---- | ----- | --- | -------- | ---------------------------------------------------------------- |
+| [**Palette Generator**](https://www.marcocrippa.it/page/gimp_palette.php)                                    | Generates harmonious color palettes from images for design purposes.                      | ✅    | –     | –   | ⚙️ 💾 🚩 | –                                                                |
+| [**Duplicate to Another Image**](https://www.deviantart.com/slybug/art/Duplicate-to-another-Image-341012566) | Copies layers (with masks/groups) between open images to streamline compositing.          | ✅    | –     | –   | ⚙️ 💾    | –                                                                |
+| [**Liquid Rescale**](http://liquidrescale.wikidot.com/)                                                      | Content-aware image resizing, similar to Photoshop’s “Content-Aware Scale.”               | ✅    | –     | –   | ⚙️ 💾    | [Docs](http://liquidrescale.wikidot.com/)                        |
+| [**bsz-gimp-plugins**](https://github.com/Beinsezii/bsz-gimp-plugins)                                        | Collection of small utilities and workflow enhancements.                                  | –    | ✅     | –   | 🚩       | –                                                                |
+| [**Watermark**](https://gimpchat.com/viewtopic.php?f=9&t=21349)                                              | Batch watermarking tool for text or image overlays with adjustable opacity/size/position. | ✅    | –     | ✅   | ⚙️ 🚩    | –                                                                |
+| [**CYAN**](https://cyan.graphics/)                                                                           | Adds CMYK workflow support to GIMP for professional print work.                           | ✅    | –     | –   | ⚙️ 🚩    | [INFO](https://www.gimp-forum.net/Thread-cyan-for-prepress-work) |
 
 ---
 
 ## ⚙️ Batch & Automation
 
-- [**BIMP (Batch Image Manipulation Plugin)**](https://alessandrofrancesconi.it/projects/bimp/) (for GIMP 2.x) - Batch-process multiple images in one go. BIMP can resize, rotate, crop, and watermark large groups of photos automatically. It’s literally a one-stop batch editor that can save hours when editing dozens of images
-    
-- [**FX-Foundry**](https://sourceforge.net/projects/gimpfx-foundry/) (For GIMP 2.x) - A large collection of filters and effects (added via a new menu in GIMP). FX-Foundry provides numerous artistic and enhancement filters, along with Script-Fu automation tools for batch tasks. [INFO:](https://gimpchat.com/viewtopic.php?f=9&t=17205&start=0) (_Listed under both Filters and Automation_.) 🚩 ⚠️: Use GEGL INSTEAD
-  
-- [**GEGL**](https://github.com/linuxbeaver) (For GIMP 2.x - 3.x) - Preinstalled but supports plugins for text effects etc
+| Plugin                                                                                        | Description                                                                         | 2.10 | 2.99+ | 3.x | Legend      | Info / Docs                                                    |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---- | ----- | --- | ----------- | -------------------------------------------------------------- |
+| [**BIMP (Batch Image Manipulation Plugin)**](https://alessandrofrancesconi.it/projects/bimp/) | Batch-process multiple images: resize, rotate, crop, watermark, and more.           | ✅    | –     | ?   | 🐍 ⭐        | [Docs](https://alessandrofrancesconi.it/projects/bimp/)        |
+| [**FX-Foundry**](https://sourceforge.net/projects/gimpfx-foundry/)                | Massive filter and automation pack;  (NOT RECOMMENDED USE GEGL INSTEAD)             | ✅    | –     | –   | ⚙️ 📦 💾 🚩 | [INFO](https://gimpchat.com/viewtopic.php?f=9&t=17205&start=0)       |
+| [**GEGL Effects**](https://github.com/linuxbeaver)                                | Built-in framework supporting modern text, lighting, and non-destructive effects.   | ✅    | ✅     | ✅   | ⚙️ 🏗️ ⭐    | –                                                                          |
 
 ---
 
 ## 🧰 Script Collections
 
-- **GIMPHelp.org Script Bundle** 🚩 (Probs hacked) - A curated collection of useful Script-Fu scripts. Continuously updated, it includes simple utilities (edge fading, framing, etc.) and more. It’s essentially a community-maintained bundle of handy little tools to extend GIMP.
-
-- [Wavelet Decompose](https://pixls.us/articles/skin-retouching-with-wavelet-decompose/) (For GIMP 2.10) - A Script-Fu version of Wavelet Decompose by Christoph A. Traxler. Place the .scm file into your scripts folder and the menu option “Wavelet Decompose …” will be under the **Image** menu: INFO: SCROLL DOWN ALL THE WAY 😂
+| Plugin                                                                                     | Description                                                                                                  | 2.10 | 2.99+ | 3.x | Legend | Info / Docs                                                               |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ---- | ----- | --- | ------ | ------------------------------------------------------------------------- |
+| **GIMPHelp.org Script Bundle**      (PROBABLY HACKED)                              | Community-maintained bundle of Script-Fu scripts for tasks like edge fading, framing, and utility functions. | ✅    | –     | –   | 📦 🚩  | [INFO](https://www.gimphelp.org/)                                                 |
+| [**Wavelet Decompose**](https://pixls.us/articles/skin-retouching-with-wavelet-decompose/) | Script-Fu version for multi-scale skin retouching; menu under **Image → Wavelet Decompose**.                 | ✅    | –     | –   | 💾 ⭐   | [Docs](https://pixls.us/articles/skin-retouching-with-wavelet-decompose/) INFO: SCROLL TO THE BOTTOM |
 
 ---
 
@@ -155,10 +126,10 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 
 ## 📤 Export
 
-- [**Batcher**](https://kamilburda.github.io/batcher/) (for GIMP 3.x) - 
-  A batch image processing plug-in for GIMP.
-- [**Save For Web**](https://templatetoaster.com/tutorials/gimp-save-for-web/) (for GIMP 2.10) - Optimizes images for web use. This plugin offers JPEG/PNG/GIF compression with preview, allowing quick export of web-friendly images
-
+| Plugin                                                                       | Description                                                                   | 2.10 | 2.99+ | 3.x | Legend | Info / Docs                                                      |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---- | ----- | --- | ------ | ---------------------------------------------------------------- |
+| [**Batcher**](https://kamilburda.github.io/batcher/)                         | Batch image processing plugin for resizing, conversion, and export tasks.     | –    | –     | ✅   | ⚙️ 🚩  | [Docs](https://kamilburda.github.io/batcher/)                    |
+| [**Save For Web**](https://templatetoaster.com/tutorials/gimp-save-for-web/) | Optimizes images for web use; supports JPEG/PNG/GIF compression with preview. | ✅    | –     | –   | ⚙️ ⭐   | [Docs](https://templatetoaster.com/tutorials/gimp-save-for-web/) |
 
 
 
