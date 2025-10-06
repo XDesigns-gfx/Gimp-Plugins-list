@@ -72,6 +72,7 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 | [**RawTherapee**](https://rawtherapee.com/)     | Advanced RAW processor with HDR, tone mapping, and film emulation tools.           | ✅    | ✅     | ✅   | ⚙️ ⭐    | [Docs](https://rawpedia.rawtherapee.com/)         |
 | [**UFRaw**](https://ufraw.sourceforge.net/Install.html)      | Legacy RAW importer offering precise exposure and color control.      | ✅    | –     | –   | ⚙️ 💾   | [Docs](http://ufraw.sourceforge.net/Install.html)     |
 | [**Lensfun**](https://lensfun.github.io/usage/) | Lens correction plugin for distortion, vignetting, and chromatic aberration fixes. | ✅    | –     | –   | ⚙️ 💾 ⭐ | [INFO](https://lensfun.github.io/usage/)             |
+| [**Nik Gimp**](https://iiey.github.io/nikgimp/) | A Python GIMP plugin for processing images using external Nik Collection programs. | ✅    | –     | –   | ⚙️ 💾 ⭐ | [INFO](https://lensfun.github.io/usage/)             |
 
 
 ---
