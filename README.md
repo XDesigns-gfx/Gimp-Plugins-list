@@ -1,6 +1,8 @@
 # Gimp-Plugins-list
 
-A list of Majority of gimp plugins, hopefully to be improved upon by the community. Feel free to open issues or pull requests, or Whatever you'll like. Honestly I just want a one stop shop to Finidning the Plugins, Scripts, Macros and more for gimp and affinity when I need them insted of digging through reddit
+>A list of Majority of gimp plugins, hopefully to be improved upon by the community. Feel free to open issues or pull requests, or Whatever you'll like. Honestly I just want a one stop shop to Finidning the Plugins, Scripts, Macros and more for gimp and affinity when I need them insted of digging through reddit
+
+## IMPORTANT: SOME PLUGINS/SCRIPT/ETC MIGHT BE ANNOYING TO HANDLE FOR THOSE THERE WILL BE A "INFO:" LINK TO HELP
 
 Emoji |	Pattern Represented |	Technical Significance
 |---|---|---|
@@ -21,4 +23,42 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 [Hugin](https://www.hugin.com/download-links/) | Compositing & Transformation | Workflow Automation & Batch | Framework | Yes | N/A | N/A | ⚙️ |
 [Layer Effects (GEGL)](https://github.com/LinuxBeaver/Gimp_Layer_Effects_Text_Styler_Plugin_GEGL_Effects/releases/) | Layer Effects & Styling | Creative Effects & Filters | Non-Destructive | Yes | Yes | Yes | 🏗️ |
 [Lensfun](https://lensfun.github.io/usage/) | Technical Correction | Image Repair & Enhancement | Framework | Yes | N/A | N/A | ⚙️ |
+[Constantize Plug-in](https://gimpchat.com/viewtopic.php?f=9&t=16827&p=254816) | Helper Plugin | Allows older gimp plugins to work for 2.10 | Helper| Yes | Yes | N/A | ⚙️ |
 
+
+## IMPORTANT: SOME PLUGINS/SCRIPT/ETC MIGHT BE ANNOYING TO HANDLE FOR THOSE THERE WILL BE A "INFO:" LINK TO HELP
+
+
+## 📷 Photo & RAW Tools
+
+- [**Darktable**](https://www.darktable.org/) (for GIMP 2.x) – A powerful open-source RAW developer that works as a GIMP plugin, offering non-destructive photo editing. It’s often described as a free alternative to Lightroom with an accessible interface.
+    
+- [**RawTherapee**](https://rawtherapee.com/) (for GIMP 2.x) – Another advanced RAW processor plugin, RawTherapee provides extensive tone mapping and HDR tools. Though less user-friendly than Darktable, it allows non-destructive raw editing directly inside GIMP.
+    
+- [**UFRaw**](https://rawtherapee.com/) (for GIMP 2.x) – A dedicated RAW import plugin, UFRaw integrates tightly with GIMP to give photographers detailed raw controls. It provides precise color management and preserves original raw files during editing.
+    
+- [**Lensfun**]([Lensfun](https://lensfun.github.io/usage/)) (for GIMP 2.x) – A lens correction plugin using the Lensfun database. It can fix lens distortion, chromatic aberration and vignetting by applying accurate lens profiles (Supports a wide range of cameras/lenses from the Lensfun database.)
+    
+
+## 🎨 Filters & Effects
+
+- [**G’MIC (GREYC’s Magic)**]() (for GIMP 2.x) – A comprehensive image processing framework with _500+ filters_. G’MIC adds a huge variety of effects (film emulations, warping, color manipulation, etc.) far beyond simple Instagram-style filters.
+    
+- [**Beautify**](https://github.com/hejiann/beautify/wiki) (for GIMP 2.x) – A collection of “beautifying” filters with simple sliders, designed for quick face/photo retouching. It provides dozens of easy-to-use skin and detail enhancement effects.
+    
+- [**Resynthesizer**](https://github.com/bootchk/resynthesizer/tree/resynthesizer3) (for GIMP 2.x) – Texture-synthesis plugins (like content-aware fill). Resynthesizer can automatically fill in selections by replicating surrounding textures, akin to Photoshop’s Content-Aware Fill[shotkit.com](https://shotkit.com/gimp-plugins/#:~:text=If%20you%E2%80%99ve%20ever%20been%20jealous,selection%20from%20what%20surrounds%20it).
+    
+- [**Elsamuko’s Filter Pack**](https://github.com/elsamuko/gimp-elsamuko) (for GIMP 2.x) – A set of creative “Instagram-style” presets and effects. It offers various artistic filters (vintage looks, color adjustments, sharpening) and quick one-click enhancements [INFO:](https://gimpchat.com/viewtopic.php?f=8&t=17919)
+    
+- [**FX-Foundry**](https://sourceforge.net/projects/gimpfx-foundry/) (for GIMP 2.x) – A large collection of filters and effects (added via a new menu in GIMP). FX-Foundry provides numerous artistic and enhancement filters, along with Script-Fu automation tools for batch tasks. [INFO:](https://gimpchat.com/viewtopic.php?f=9&t=17205&start=0) (_Listed under both Filters and Automation_.) 
+
+
+
+
+
+
+
+
+
+
+## IMPORTANT: SOME PLUGINS/SCRIPT/ETC MIGHT BE ANNOYING TO HANDLE FOR THOSE THERE WILL BE A "INFO:" LINK TO HELP
