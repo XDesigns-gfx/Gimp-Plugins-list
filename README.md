@@ -3,6 +3,7 @@
 >A list of Majority of gimp plugins, hopefully to be improved upon by the community. Feel free to open issues or pull requests, or Whatever you'll like. Honestly I just want a one stop shop to Finidning the Plugins, Scripts, Macros and more for gimp and affinity when I need them insted of digging through reddit
 
 ## IMPORTANT: SOME PLUGINS/SCRIPT/ETC MIGHT BE ANNOYING TO HANDLE FOR THOSE THERE WILL BE A "INFO:" LINK TO HELP
+<font color="green">This text is green.</font>
 
 Emoji |	Pattern Represented |	Technical Significance
 |---|---|---|
