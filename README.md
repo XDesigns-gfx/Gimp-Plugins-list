@@ -9,11 +9,14 @@ Note: Some plugins are outright ignored on purpose Like some image generations, 
 
 Emoji |	Pattern Represented |	Technical Significance
 |---|---|---|
-🐍	| Python-Based Script	| Indicates a plugin or component relying on the Python interpreter. Requires matching Python 3 runtime environment for GIMP 3.0+ operation.
-🏗️	| Under Active GIMP 3.0 | Development	Signifies a dedicated code branch or concentrated development focus specifically targeting the new GIMP 3.0 API, indicating future stability.
+🐍	| Python-Based Script	| Plugin or extension implemented in Python (requires Python 3 runtime).
+🏗️	| Active GIMP 3.x Development | Indicates ongoing or recent development for GIMP 3.x+ compatibility.
 ⚙️	| Standalone Application/Framework | Represents large, external tools (such as G'MIC or Hugin) that utilize GIMP merely as an input/output interface, often yielding better resilience against internal API changes.
 💾	| Legacy/Archive Status	| Denotes a plugin optimized for GIMP 2.10 or older versions, where maintenance for GIMP 3.0+ is either confirmed absent or highly uncertain.
 ⭐	| High Utility / Essential Tool |	Identifies a tool widely regarded by the community as essential for extending GIMP’s core capabilities beyond standard functionality.
+🚩	| Verified Working |	Tested and confirmed functional on the specified GIMP version(s).
+🧠	| AI / Machine Learning Based | Plugin leveraging machine learning or neural network technology.
+📦	| Script Collection	| Bundled or multi-utility plugin collection (Script-Fu, Python-Fu, etc.).
 
 ### GIMP Plugin Master Catalog
 Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legend |
@@ -42,6 +45,21 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 ---
 
 ## ✨ AI - ML and MATH tools
+
+
+
+| Plugin                                                                                  | Description                                                                                                | 2.10 | 2.99+ | 3.x | Legend       | Info / Docs                                                                                                                                    |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---- | ----- | --- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**OpenVINO AI Plugins for GIMP**](https://github.com/intel/openvino-ai-plugins-gimp)   | Adds Intel OpenVINO™-based AI features like enhancement, denoising, and segmentation.                      | –    | ✅     | ✅   | 🧠 ⚙️ 🏗️ ⭐  | –                                                                                                                                              |
+| [**GIMP-ML**](https://kritiksoman.github.io/GIMP-ML-Docs/index.html)                    | Python-based ML toolkit with models for style transfer, super-resolution, and background removal.          | –    | ✅     | ✅   | 🧠 🐍 🏗️ ⭐  | [Docs](https://kritiksoman.github.io/GIMP-ML-Docs/index.html)                                                                                  |
+| [**GIMP Comfy Tools**](https://github.com/nchenevey1/gimp-comfy-tools)                  | Connects GIMP with ComfyUI for AI image generation and post-processing.                                    | –    | –     | ✅   | 🧠 ⚙️ 🏗️ 🚩 | [INFO](https://www.gimp-forum.net/Thread-AI-Gimp-Plugins) / [INFO2](https://www.reddit.com/r/GIMP/comments/1jp0mzt/gimp_3_ai_plugins_updated/) |
+| [**RemoveBG-GIMP**](https://github.com/manu12121999/RemoveBG-GIMP)                      | Simple AI background remover using the [remove.bg](https://www.remove.bg/) API.                            | ✅    | ✅     | ✅   | 🧠 ⚙️ 🚩     | –                                                                                                                                              |
+| [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin)              | Integrates [rembg](https://github.com/danielgatis/rembg) AI background removal with mask and crop options. | ✅    | ✅     | –   | 🧠 🐍 💾     | –                                                                                                                                              |
+| [**gimp3-rembg-plugin (UI Variant)**](https://github.com/ismdevteam/gimp3-rembg-plugin) | GIMP 3.x UI variant of rembg plugin with live mask preview and batch support.                              | –    | –     | ✅   | 🧠 🐍 🏗️ 🚩 | –                                                                                                                                              |
+| [**GIMP Upscale (RealESRGAN)**](https://github.com/Nenotriple/gimp_upscale)             | AI upscaler using RealESRGAN; enhances resolution and image quality.                                       | ✅    | ✅     | ✅   | 🧠 🐍 🚩 ⭐   | –                                                                                                                                              |
+| [**Segment Anything (Meta SAM)**](https://github.com/Shriinivas/gimpsegany)             | Integrates Meta’s Segment Anything for advanced object isolation and smart masking.                        | –    | –     | ✅   | 🧠 ⚙️ 🏗️ 🚩 | [INFO](https://github.com/facebookresearch/sam2?tab=readme-ov-file)                                                                            |
+| [**Tritonhawk-Plus**](https://github.com/TigersEyeJadeSwiftwing/Tritonhawk-Plus)        | Plugin designed for high-precision scientific or mathematical image analysis.                              | –    | –     | ✅   | ⚙️ 🏗️ 🚩    | –                                                                                                                                              |
+
 
 - [**OpenVino**](https://github.com/intel/openvino-ai-plugins-gimp)(for GIMP 3.x) - A powerful open-source too that provides a set of OpenVINO™ based plugins that add AI features to GIMP.
     
