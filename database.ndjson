@@ -1,0 +1,21 @@
+{"owner":"kamilburda","name":"batcher","url":"https://github.com/kamilburda/batcher","description":"Batch image processing plugin for resizing, conversion, and export tasks."}
+{"owner":"hejiann","name":"beautify","url":"https://github.com/hejiann/beautify","description":"Photo retouching plugin offering beautification and portrait enhancement filters."}
+{"owner":"Beinsezii","name":"bsz-gimp-plugins","url":"https://github.com/Beinsezii/bsz-gimp-plugins","description":"Collection of small utilities and workflow enhancements."}
+{"owner":"LinuxBeaver","name":"Gimp_Layer_Effects_Text_Styler_Plugin_GEGL_Effects","url":"https://github.com/LinuxBeaver/Gimp_Layer_Effects_Text_Styler_Plugin_GEGL_Effects","description":"A plugin that provides GEGL-based layer effects for styling, creative filters, and non-destructive editing."}
+{"owner":"Nenotriple","name":"gimp_upscale","url":"https://github.com/Nenotriple/gimp_upscale","description":"AI upscaler using RealESRGAN; enhances resolution and image quality."}
+{"owner":"nchenevey1","name":"gimp-comfy-tools","url":"https://github.com/nchenevey1/gimp-comfy-tools","description":"Connects GIMP with ComfyUI for AI image generation and post-processing."}
+{"owner":"elsamuko","name":"gimp-elsamuko","url":"https://github.com/elsamuko/gimp-elsamuko","description":"Creative preset pack with color adjustments, film looks, and vintage filters."}
+{"owner":"carlobaldassi","name":"gimp-lqr-plugin","url":"https://github.com/carlobaldassi/gimp-lqr-plugin","description":"Content-aware image resizing, similar to Photoshop’s “Content-Aware Scale.”"}
+{"owner":"kritiksoman","name":"GIMP-ML","url":"https://github.com/kritiksoman/GIMP-ML","description":"Python-based ML toolkit with models for style transfer, super-resolution, and background removal."}
+{"owner":"alessandrofrancesconi","name":"gimp-plugin-bimp","url":"https://github.com/alessandrofrancesconi/gimp-plugin-bimp","description":"Batch-process multiple images: resize, rotate, crop, watermark, and more."}
+{"owner":"akkana","name":"gimp-plugins","url":"https://github.com/akkana/gimp-plugins","description":"A collection of GIMP plugins."}
+{"owner":"eib","name":"gimp-plugins","url":"https://github.com/eib/gimp-plugins","description":"A collection of GIMP plugins."}
+{"owner":"aferrero2707","name":"gimp-plugins-collection","url":"https://github.com/aferrero2707/gimp-plugins-collection","description":"A collection of GIMP plugins."}
+{"owner":"Tech-Archive","name":"gimp-rembg-plugin","url":"https://github.com/Tech-Archive/gimp-rembg-plugin","description":"Integrates [rembg](https://github.com/danielgatis/rembg) AI background removal with mask and crop options."}
+{"owner":"ismdevteam","name":"gimp3-rembg-plugin","url":"https://github.com/ismdevteam/gimp3-rembg-plugin","description":"GIMP 3.x UI variant of rembg plugin with live mask preview and batch support."}
+{"owner":"Shriinivas","name":"gimpsegany","url":"https://github.com/Shriinivas/gimpsegany","description":"Integrates Meta’s Segment Anything for advanced object isolation and smart masking."}
+{"owner":"iiey","name":"nikgimp","url":"https://github.com/iiey/nikgimp","description":"A Python GIMP plugin for processing images using external Nik Collection programs."}
+{"owner":"intel","name":"openvino-ai-plugins-gimp","url":"https://github.com/intel/openvino-ai-plugins-gimp","description":"Adds Intel OpenVINO™-based AI features like enhancement, denoising, and segmentation."}
+{"owner":"manu12121999","name":"RemoveBG-GIMP","url":"https://github.com/manu12121999/RemoveBG-GIMP","description":"Simple AI background remover using the [remove.bg](https://www.remove.bg/) API."}
+{"owner":"bootchk","name":"resynthesizer","url":"https://github.com/bootchk/resynthesizer","description":"Texture synthesis tool enabling “Content-Aware Fill”-like functionality."}
+{"owner":"TigersEyeJadeSwiftwing","name":"Tritonhawk-Plus","url":"https://github.com/TigersEyeJadeSwiftwing/Tritonhawk-Plus","description":"Plugin designed for high-precision scientific or mathematical image analysis."}
