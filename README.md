@@ -35,6 +35,11 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 
 ## Batches / COllections etc:
 - https://github.com/akkana/gimp-plugins
+- https://github.com/akkana/gimp-plugins1
+- https://github.com/akkana/gimp-plugins2
+- https://github.com/akkana/gimp-plugins3
+- https://github.com/akkana/gimp-plugins4
+- https://github.com/akkana/gimp-plugins5
 
 
 
@@ -94,3 +99,114 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 
 #### ⚠️ IMPORTANT: Some PLUGINS/SCRIPT/ETC might be Hard to install/understand for those you'll see a "INFO:" Link to help
 #### ⚠️ DISCLAMER: You are using this at your own risk all softwares ARE NOT mine and I only provide link if you see a 🚩 that means this are new independent developer and if you just blindly install YOU ARE ON YOUR OWN
+
+---
+
+## How to Install GIMP Plugins (Step By Step)
+Windows = Double click or if manual follow below
+
+Mac|Linux|WIndows = Most GIMP plugins come as a .zip file when you download them. To start, simply extract the contents of this zip file and save the unzipped folder somewhere easy to find — your desktop is perfect.
+
+Once that’s done, you’ll need to put the plugin files in the correct GIMP folder so the program can find and use them. These files usually end in either .py (Python plugin) or .scm (Script-Fu script). You can check this by looking at the file extension or under “File Type.”
+
+Here’s what to do next:
+
+Open GIMP and go to Edit → Preferences.
+
+Scroll down and expand the Folders section.
+
+If your files end in .py, click Plugins.
+If they end in .scm, click Scripts.
+
+You’ll see two folder locations listed. Select the one that starts with Users (this is your personal GIMP folder).
+
+In the top-right corner, click “Show file location in file manager.”
+
+Copy and paste (or drag and drop) your unzipped plugin files into that folder.
+
+Restart GIMP.
+
+When GIMP reopens, it will automatically detect and load your new plugins — and they’ll be ready to use!
+
+---
+
+## How to Use GIMP Plugins
+After you’ve installed your GIMP plugin, you may be confused about how to actually use it.
+
+Different GIMP plugins are accessed and run in different ways. Some may show up under the Filters menu; others can be accessed by options in the Layers menu or Image menu, and others appear under a menu called Script-Fu.
+
+Others, like FX Foundary listed above, add an entirely new menu item to the top of GIMP.
+
+Because of this variability, finding your way around each new GIMP plugin can be a little bit of a learning and exploring process.
+
+The good news is that, once you’ve found how to access them, many of the best GIMP plugins are easy and intuitive to use. For more complex processes or if you run into issues, try searching for the plugin’s help and support documentation online.
+
+## Can GIMP use Photoshop plugins?
+
+Yes – the latest version of GIMP can run a range of Photoshop plugins. You may need to check the compatibility of individual plugins, however, as not all will work 100%.
+
+
+
+---
+
+Sources:
+0. All listed plugins/scipts/etc Inidividual websites and/or github pages
+1. Github.com
+2. https://shotkit.com/gimp-plugins/
+3. gimpchat.com
+4. https://www.theknowledgeacademy.com/blog/gimp-plugins
+Others:
+
+[Creator canvas](https://www.youtube.com/watch?v=zWfgg5y5m9Y)
+Top 10 Plugins Every Gimp User Should Have (Links in Description)
+
+[reddit.com](https://www.reddit.com/r/GIMP/comments/1jen6g9/plugins_for_gimp_3/)
+Plugins for Gimp 3 : r/GIMP - Reddit
+
+[gimp.org](https://www.gimp.org/registry/)
+Registry - GIMP + the github redirect
+
+[gimpchat.com](https://gimpchat.com/viewtopic.php?f=8&t=19472)
+Understanding where and how to get GIMP plugins
+
+[github.com](https://github.com/carlobaldassi/gimp-lqr-plugin)
+bootchk/resynthesizer: Suite of gimp plugins for texture synthesis - GitHub
+
+[github.com](https://github.com/carlobaldassi/gimp-lqr-plugin)
+carlobaldassi/gimp-lqr-plugin: LiquidRescale plug-in for seam carving in GIMP - GitHub
+
+[github.com](https://github.com/alessandrofrancesconi/gimp-plugin-bimp)
+BIMP. Batch Image Manipulation Plugin for GIMP. - GitHub
+
+[developer.gimp.org](https://developer.gimp.org/resource/writing-a-plug-in/tutorial-script-fu/)
+Script-Fu Plug-Ins - GIMP Developer
+
+[shallowsky.com](https://shallowsky.com/software/pandora/)
+Pandora: a GIMP Plugin for Making Panoramas - The Shallow Sky
+
+[gmic.eu](https://gmic.eu/download.html)
+G'MIC - GREYC's Magic for Image Computing: A Full-Featured Open ...
+
+[reddit.com](https://www.reddit.com/r/GIMP/comments/1je6203/gmic_with_30/)
+GMIC with 3.0? : r/GIMP - Reddit
+
+sourceforge.net
+Hugin download | SourceForge.net
+
+hugin.sourceforge.io
+Hugin Download - SourceForge
+
+[gimp-forum.net](https://www.gimp-forum.net/Thread-resynthesizer-3-0)
+resynthesizer 3.0 - Gimp-Forum.net
+
+[gimpchat.com](https://gimpchat.com/viewtopic.php?f=7&t=21535)
+Resynthesizer for GIMP 3.0 RC2 Win64 - Gimp Chat
+
+alessandrofrancesconi.it
+BIMP. Batch Image Manipulation Plugin for GIMP. - Alessandro Francesconi
+
+[github.com](https://github.com/termux/termux-packages/issues/10869)
+ GIMP Liquid Rescale plugin · Issue #10869 - GitHub
+
+liquidrescale.wikidot.com
+Liquid Rescale GIMP plugin: Welcome
