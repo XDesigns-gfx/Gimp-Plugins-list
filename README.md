@@ -1,8 +1,11 @@
 # Gimp-Plugins-list
 
->A list of Majority of gimp plugins, hopefully to be improved upon by the community. Feel free to open issues or pull requests, or Whatever you'll like. Honestly I just want a one stop shop to Finidning the Plugins, Scripts, Macros and more for gimp and affinity when I need them insted of digging through reddit
+>A list of Majority of gimp plugins, hopefully to be improved upon by the community. Feel free to open issues or pull requests, or Whatever you'll like. Honestly I just want a one stop shop to Finidning the Plugins, Scripts, Macros and more for gimp and affinity when I need them insted of digging through reddit.
 
-#### IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annyoing to install/understand for those you'll see a "INFO:" Link to help
+Note: Some plugins are outright ignored on purpose Like some image generations, because there are other verified more unlikely to be abadandoned alternatives out there sorry but true add, if you feel am wrong.
+
+#### ⚠️ IMPORTANT: Some PLUGINS/SCRIPT/ETC might be Hard to install/understand for those you'll see a "INFO:" Link to help
+#### ⚠️ DISCLAMER: You are using this at your own risk all softwares ARE NOT mine and I only provide link if you see a 🚩 that means this are new independent developer and if you just blindly install YOU ARE ON YOUR OWN
 
 Emoji |	Pattern Represented |	Technical Significance
 |---|---|---|
@@ -25,9 +28,33 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 [Lensfun](https://lensfun.github.io/usage/) | Technical Correction | Image Repair & Enhancement | Framework | Yes | N/A | N/A | ⚙️ |
 [Constantize Plug-in](https://gimpchat.com/viewtopic.php?f=9&t=16827&p=254816) | Helper Plugin | Allows older gimp plugins to work for 2.10 | Helper| Yes | Yes | N/A | ⚙️ |
 
+---
+#### ⚠️ IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annyoing to install/understand for those you'll see a "INFO:" Link to help
+#### ⚠️ DISCLAMER: You are using this at your own risk all softwares ARE NOT mine and I only provide link if you see a 🚩 that means this are new independent developer and if you just blindly install YOU ARE ON YOUR OWN
+---
 
-#### IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annyoing to install/understand for those you'll see a "INFO:" Link to help
+## Batches / COllections etc:
+- https://github.com/akkana/gimp-plugins
 
+
+
+## ✨ AI - ML tools
+
+- [**OpenVino**](https://github.com/intel/openvino-ai-plugins-gimp)(for GIMP 3.x) - A powerful open-source too that provides a set of OpenVINO™ based plugins that add AI features to GIMP.
+    
+- [**Gimp-ML**](https://kritiksoman.github.io/GIMP-ML-Docs/index.html) (for GIMP 2.99+) - GIMP-ML is a set of Python plugins for the widely popular GNU Image Manipulation Program (GIMP).
+    
+- [**gimp-comfy-tools**](https://github.com/nchenevey1/gimp-comfy-tools) (for GIMP 3.X) - GIMP plugins that communicate with ComfyUI
+  [INFO:](https://www.gimp-forum.net/Thread-AI-Gimp-Plugins) [INFO2:](https://www.reddit.com/r/GIMP/comments/1jp0mzt/gimp_3_ai_plugins_updated/)
+    
+- [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin) (for GIMP 2.x) - This GIMP plugin allows users to remove image backgrounds using AI-powered tools like [rembg](https://github.com/danielgatis/rembg). The plugin integrates with GIMP to offer a simple way to remove backgrounds, optionally apply the result as a mask, flatten the image, and resize the canvas to make the image square. It can process a single image or all open images in GIMP.
+
+- [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin) 🚩
+  [BG Removal UI varient](https://github.com/ismdevteam/gimp3-rembg-plugin) 🚩 (for GIMP 3.x) - This GIMP plugin allows users to remove image backgrounds using AI-powered tools like [rembg](https://github.com/danielgatis/rembg). The plugin integrates with GIMP to offer a simple way to remove backgrounds, optionally apply the result as a mask, flatten the image, and resize the canvas to make the image square. It can process a single image or all open images in GIMPHelp.org
+
+- [Gimp_Upscale](https://github.com/Nenotriple/gimp_upscale) 🚩 (for GIMP 2.x-3.x) - **GIMP Upscale** is an open-source plugin that brings advanced AI-powered image upscaling to GIMP. Using RealESRGAN technology, this plugin lets you enhance image resolution, improve photo quality, and upscale anime artwork with ease, supporting custom ESRGAN models and both Windows and Linux platforms.
+
+---
 
 ## 📷 Photo & RAW Tools
 
@@ -39,6 +66,7 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
     
 - [**Lensfun**]([Lensfun](https://lensfun.github.io/usage/)) (for GIMP 2.x) – A lens correction plugin using the Lensfun database. It can fix lens distortion, chromatic aberration and vignetting by applying accurate lens profiles (Supports a wide range of cameras/lenses from the Lensfun database.)
     
+---
 
 ## 🎨 Filters & Effects
 
@@ -52,6 +80,11 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
     
 - [**FX-Foundry**](https://sourceforge.net/projects/gimpfx-foundry/) (for GIMP 2.x) – A large collection of filters and effects (added via a new menu in GIMP). FX-Foundry provides numerous artistic and enhancement filters, along with Script-Fu automation tools for batch tasks. [INFO:](https://gimpchat.com/viewtopic.php?f=9&t=17205&start=0) (_Listed under both Filters and Automation_.) 
 
+---
+
+## 📤 Export
+
+- [Batcher](https://kamilburda.github.io/batcher/)
 
 
 
@@ -59,6 +92,5 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 
 
 
-
-
-#### IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annyoing to install/understand for those you'll see a "INFO:" Link to help
+#### ⚠️ IMPORTANT: Some PLUGINS/SCRIPT/ETC might be Hard to install/understand for those you'll see a "INFO:" Link to help
+#### ⚠️ DISCLAMER: You are using this at your own risk all softwares ARE NOT mine and I only provide link if you see a 🚩 that means this are new independent developer and if you just blindly install YOU ARE ON YOUR OWN
