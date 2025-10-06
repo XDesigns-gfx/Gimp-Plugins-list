@@ -37,13 +37,11 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 - https://github.com/akkana/gimp-plugins 🚩
 - https://github.com/eib/gimp-plugins 🚩
 - https://github.com/aferrero2707/gimp-plugins-collection 🚩 
-- https://github.com/akkana/gimp-plugins3 🚩
-- https://github.com/akkana/gimp-plugins4 🚩
-- https://github.com/akkana/gimp-plugins5 🚩
+- https://github.com/search?q=gimp&type=repositories&p=2
 
 ---
 
-## ✨ AI - ML tools
+## ✨ AI - ML and MATH tools
 
 - [**OpenVino**](https://github.com/intel/openvino-ai-plugins-gimp)(for GIMP 3.x) - A powerful open-source too that provides a set of OpenVINO™ based plugins that add AI features to GIMP.
     
@@ -51,13 +49,19 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
     
 - [**gimp-comfy-tools**](https://github.com/nchenevey1/gimp-comfy-tools) (for GIMP 3.X) - GIMP plugins that communicate with ComfyUI
   [INFO:](https://www.gimp-forum.net/Thread-AI-Gimp-Plugins) [INFO2:](https://www.reddit.com/r/GIMP/comments/1jp0mzt/gimp_3_ai_plugins_updated/)
+
+- [Remove BG Main](https://github.com/manu12121999/RemoveBG-GIMP) 🚩 (for GIMP 2.x - 3.x) - A small plugin to easily remove the background of an image using https://www.remove.bg/
     
 - [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin) (for GIMP 2.x) - This GIMP plugin allows users to remove image backgrounds using AI-powered tools like [rembg](https://github.com/danielgatis/rembg). The plugin integrates with GIMP to offer a simple way to remove backgrounds, optionally apply the result as a mask, flatten the image, and resize the canvas to make the image square. It can process a single image or all open images in GIMP.
 
 - [**gimp-rembg-plugin**](https://github.com/Tech-Archive/gimp-rembg-plugin) 🚩
   [BG Removal UI varient](https://github.com/ismdevteam/gimp3-rembg-plugin) 🚩 (for GIMP 3.x) - This GIMP plugin allows users to remove image backgrounds using AI-powered tools like [rembg](https://github.com/danielgatis/rembg). The plugin integrates with GIMP to offer a simple way to remove backgrounds, optionally apply the result as a mask, flatten the image, and resize the canvas to make the image square. It can process a single image or all open images in GIMPHelp.org
 
-- [Gimp_Upscale](https://github.com/Nenotriple/gimp_upscale) 🚩 (for GIMP 2.x-3.x) - **GIMP Upscale** is an open-source plugin that brings advanced AI-powered image upscaling to GIMP. Using RealESRGAN technology, this plugin lets you enhance image resolution, improve photo quality, and upscale anime artwork with ease, supporting custom ESRGAN models and both Windows and Linux platforms.
+- [**Gimp_Upscale**](https://github.com/Nenotriple/gimp_upscale) 🚩 (for GIMP 2.x-3.x) - **GIMP Upscale** is an open-source plugin that brings advanced AI-powered image upscaling to GIMP. Using RealESRGAN technology, this plugin lets you enhance image resolution, improve photo quality, and upscale anime artwork with ease, supporting custom ESRGAN models and both Windows and Linux platforms.
+
+- [**Tritonhawk-Plus**](https://github.com/TigersEyeJadeSwiftwing/Tritonhawk-Plus) 🚩 (For GIMP 3.x) - Tritonhawk-Plus might be the answer for scientific needs where extreme precision is needed, or at least a start. so MATH!!!
+
+- [**Segment ANything**](https://github.com/Shriinivas/gimpsegany) 🚩 (FOr GIMP 3.x) - This GIMP plugin integrates with Meta's AI-based tool Segment Anything, which enables you to effortlessly isolate objects within raster images directly from GIMP. [INFO:](https://github.com/facebookresearch/sam2?tab=readme-ov-file) for meta
 
 ---
 
