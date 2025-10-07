@@ -63,6 +63,7 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 | [**GIMP Upscale (RealESRGAN)**](https://github.com/Nenotriple/gimp_upscale)             | AI upscaler using RealESRGAN; enhances resolution and image quality.                                       | ✅    | ✅     | ✅   | 🧠 🐍 🚩 ⭐   | –                                                                                                                                              |
 | [**Segment Anything (Meta SAM)**](https://github.com/Shriinivas/gimpsegany)             | Integrates Meta’s Segment Anything for advanced object isolation and smart masking.                        | –    | –     | ✅   | 🧠 ⚙️ 🏗️ 🚩 | [INFO](https://github.com/facebookresearch/sam2?tab=readme-ov-file)                                                                            |
 | [**Tritonhawk-Plus**](https://github.com/TigersEyeJadeSwiftwing/Tritonhawk-Plus)        | Plugin designed for high-precision scientific or mathematical image analysis.                              | –    | –     | ✅   | ⚙️ 🏗️ 🚩    | –                                                                                                                                              |
+| [**GIMP Stable Diffusion (BinaryMalice)**](https://github.com/BinaryMalice/gimp-stable-diffusion) | AI image generation plugin for Stable Diffusion, with text-to-image, image-to-image, and inpainting, powered by Stable Horde. | –    | ✅     | ✅   | 🧠 🐍 🏗️ 🚩 | –                                                                                                                                              |
 
 ---
 
@@ -89,6 +90,9 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 | [**Elsamuko’s Filter Pack**](https://github.com/elsamuko/gimp-elsamuko)           | Creative preset pack with color adjustments, film looks, and vintage filters.       | ✅    | –     | –   | ⚙️ 💾 🚩    | [INFO](https://gimpchat.com/viewtopic.php?f=8&t=17919)                                                                                 |
 | [**FX-Foundry**](https://sourceforge.net/projects/gimpfx-foundry/)                | Massive filter and automation pack;  (NOT RECOMMENDED USE GEGL INSTEAD)             | ✅    | –     | –   | ⚙️ 📦 💾 🚩 | [INFO](https://gimpchat.com/viewtopic.php?f=9&t=17205&start=0)                                                                         |
 | [**GEGL Effects**](https://github.com/linuxbeaver)                                | Built-in framework supporting modern text, lighting, and non-destructive effects.   | ✅    | ✅     | ✅   | ⚙️ 🏗️ ⭐    | –                                                                                                                                            |
+| [**GEGL Old Photo Effect**](https://github.com/LinuxBeaver/GEGL---Old-Photo-Effect---Make-your-photos-have-early-21st-century-aesthetics) | A GEGL filter applying an early 21st-century old photo aesthetic. | ✅    | ✅     | ✅   | ⚙️ 🏗️ 🚩    | –                                                                                                                                              |
+| [**GIMP Instagram Filters**](https://github.com/fberbert/gimp-instagram-filters)  | Collection of Python plugins replicating popular Instagram-like filters. | ✅    | –     | –   | 🐍 💾 🚩     | –                                                                                                                                              |
+
 ---
 
 ## 🔧 Utilities / Tools
@@ -120,6 +124,7 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ---- | ----- | --- | ------ | ------------------------------------------------------------------------- |
 | **GIMPHelp.org Script Bundle**      (PROBABLY HACKED)                              | Community-maintained bundle of Script-Fu scripts for tasks like edge fading, framing, and utility functions. | ✅    | –     | –   | 📦 🚩  | [INFO](https://www.gimphelp.org/)                                                 |
 | [**Wavelet Decompose**](https://pixls.us/articles/skin-retouching-with-wavelet-decompose/) | Script-Fu version for multi-scale skin retouching; menu under **Image → Wavelet Decompose**.                 | ✅    | –     | –   | 💾 ⭐   | [Docs](https://pixls.us/articles/skin-retouching-with-wavelet-decompose/) INFO: SCROLL TO THE BOTTOM |
+| [**Ofnuts' GIMP Tools**](https://sourceforge.net/projects/ofnuts-gimp-tools/)             | Comprehensive collection of Script-Fu and Python-Fu tools and filters by Ofnuts. | ✅    | –     | –   | 📦 🐍 💾 | –                                                                         |
 
 ---
 
@@ -194,6 +199,7 @@ Yes – the latest version of GIMP can run a range of Photoshop plugins. You may
 ---
 
 Sources:
+
 0. All listed plugins/scipts/etc Inidividual websites and/or github pages
 1. Github.com
 2. https://shotkit.com/gimp-plugins/
