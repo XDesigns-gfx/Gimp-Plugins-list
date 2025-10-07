@@ -3,6 +3,8 @@
 >A list of Majority of gimp plugins, hopefully to be improved upon by the community. Feel free to open issues or pull requests, or Whatever you'll like. Honestly I just want a one stop shop to Finidning the Plugins, Scripts, Macros and more for gimp and affinity when I need them insted of digging through reddit.
 
 Note: Some plugins are outright ignored on purpose Like some image generations, because there are other verified more unlikely to be abadandoned alternatives out there sorry but true add, if you feel am wrong.
+     - A new Gimp Data scraper is not avail for only github
+     - 
 
 #### ⚠️ IMPORTANT: Some PLUGINS/SCRIPT/ETC might be Hard to install/understand for those you'll see a "INFO:" Link to help
 #### ⚠️ DISCLAMER: You are using this at your own risk all softwares ARE NOT mine and I only provide link if you see a 🚩 that means this are new independent developer, Risks are:
