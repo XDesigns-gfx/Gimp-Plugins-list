@@ -199,6 +199,7 @@ Yes – the latest version of GIMP can run a range of Photoshop plugins. You may
 ---
 
 Sources:
+
 0. All listed plugins/scipts/etc Inidividual websites and/or github pages
 1. Github.com
 2. https://shotkit.com/gimp-plugins/
