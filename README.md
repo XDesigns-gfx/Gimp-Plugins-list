@@ -36,7 +36,7 @@ Plugin Name | Category 1 | Category 2 | Category 3 | 2.10 | 2.99+ | 3.0+ | Legen
 [Constantize Plug-in](https://gimpchat.com/viewtopic.php?f=9&t=16827&p=254816) | Helper Plugin | Allows older gimp plugins to work for 2.10 | Helper| Yes | Yes | N/A | ⚙️ |
 
 ---
-#### ⚠️ IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annyoing to install/understand for those you'll see a "INFO:" Link to help
+#### ⚠️ IMPORTANT: Some PLUGINS/SCRIPT/ETC might be annoying to install/understand for those you'll see a "INFO:" Link to help
 #### ⚠️ DISCLAMER: You are using this at your own risk all softwares ARE NOT mine and I only provide link if you see a 🚩 that means this are new independent developer and if you just blindly install YOU ARE ON YOUR OWN
 ---
 
